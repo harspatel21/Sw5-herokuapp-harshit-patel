@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Enter User Name [[ChromeDriver: chrome on WINDOWS (8365b60c0124282b299aa410a01a8147)] -> id: username] in to username field [[ChromeDriver: chrome on WINDOWS (8365b60c0124282b299aa410a01a8147)] -> id: username]]]>
+    </line>
+    <line>
+      <![CDATA[Enter Password[[ChromeDriver: chrome on WINDOWS (8365b60c0124282b299aa410a01a8147)] -> id: password] into Password Field [[ChromeDriver: chrome on WINDOWS (8365b60c0124282b299aa410a01a8147)] -> id: password]]]>
+    </line>
+    <line>
+      <![CDATA[Click on Login Button[[ChromeDriver: chrome on WINDOWS (8365b60c0124282b299aa410a01a8147)] -> xpath: //button[@type='submit']]]]>
+    </line>
+    <line>
+      <![CDATA[Get Secure Area Text [[ChromeDriver: chrome on WINDOWS (8365b60c0124282b299aa410a01a8147)] -> xpath: //h2[text()=' Secure Area']]]]>
+    </line>
+    <line>
+      <![CDATA[Enter User Name [[ChromeDriver: chrome on WINDOWS (0d4144b9db1af102e46bbcf33018075e)] -> id: username] in to username field [[ChromeDriver: chrome on WINDOWS (0d4144b9db1af102e46bbcf33018075e)] -> id: username]]]>
+    </line>
+    <line>
+      <![CDATA[Enter Password[[ChromeDriver: chrome on WINDOWS (0d4144b9db1af102e46bbcf33018075e)] -> id: password] into Password Field [[ChromeDriver: chrome on WINDOWS (0d4144b9db1af102e46bbcf33018075e)] -> id: password]]]>
+    </line>
+    <line>
+      <![CDATA[Click on Login Button[[ChromeDriver: chrome on WINDOWS (0d4144b9db1af102e46bbcf33018075e)] -> xpath: //button[@type='submit']]]]>
+    </line>
+    <line>
+      <![CDATA[Verify Invalid Credential Message[[ChromeDriver: chrome on WINDOWS (0d4144b9db1af102e46bbcf33018075e)] -> xpath: //div[@id='flash-messages']]]]>
+    </line>
+    <line>
+      <![CDATA[Enter User Name [[ChromeDriver: chrome on WINDOWS (6bec2554be1011f1a290ba1d5279234c)] -> id: username] in to username field [[ChromeDriver: chrome on WINDOWS (6bec2554be1011f1a290ba1d5279234c)] -> id: username]]]>
+    </line>
+    <line>
+      <![CDATA[Enter Password[[ChromeDriver: chrome on WINDOWS (6bec2554be1011f1a290ba1d5279234c)] -> id: password] into Password Field [[ChromeDriver: chrome on WINDOWS (6bec2554be1011f1a290ba1d5279234c)] -> id: password]]]>
+    </line>
+    <line>
+      <![CDATA[Click on Login Button[[ChromeDriver: chrome on WINDOWS (6bec2554be1011f1a290ba1d5279234c)] -> xpath: //button[@type='submit']]]]>
+    </line>
+    <line>
+      <![CDATA[Verify Invalid Credential Message[[ChromeDriver: chrome on WINDOWS (6bec2554be1011f1a290ba1d5279234c)] -> xpath: //div[@id='flash-messages']]]]>
+    </line>
+  </reporter-output>
+  <suite name="testsuite" duration-ms="19538" started-at="2022-12-13T22:37:13 GMT" finished-at="2022-12-13T22:37:33 GMT">
+    <groups>
+      <group name="regression">
+        <method signature="LoginPageTest.UserShouldLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@1786f9d5]" name="UserShouldLoginSuccessfullyWithValidCredentials" class="com.herokuapp.testsuite.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyThePasswordErrorMessage()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@1786f9d5]" name="verifyThePasswordErrorMessage" class="com.herokuapp.testsuite.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyTheUsernameErrorMessage()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@1786f9d5]" name="verifyTheUsernameErrorMessage" class="com.herokuapp.testsuite.LoginPageTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginPageTest.verifyTheUsernameErrorMessage()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@1786f9d5]" name="verifyTheUsernameErrorMessage" class="com.herokuapp.testsuite.LoginPageTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="LoginPageTest.UserShouldLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@1786f9d5]" name="UserShouldLoginSuccessfullyWithValidCredentials" class="com.herokuapp.testsuite.LoginPageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Login Test" duration-ms="19538" started-at="2022-12-13T22:37:13 GMT" finished-at="2022-12-13T22:37:33 GMT">
+      <class name="com.herokuapp.testsuite.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@1786f9d5]" name="setUp" is-config="true" duration-ms="6548" started-at="2022-12-13T22:37:14 GMT" finished-at="2022-12-13T22:37:20 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@1786f9d5]" name="inIt" is-config="true" duration-ms="69" started-at="2022-12-13T22:37:20 GMT" finished-at="2022-12-13T22:37:20 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="UserShouldLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@1786f9d5]" name="UserShouldLoginSuccessfullyWithValidCredentials" duration-ms="841" started-at="2022-12-13T22:37:20 GMT" finished-at="2022-12-13T22:37:21 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter User Name [[ChromeDriver: chrome on WINDOWS (8365b60c0124282b299aa410a01a8147)] -> id: username] in to username field [[ChromeDriver: chrome on WINDOWS (8365b60c0124282b299aa410a01a8147)] -> id: username]]]>
+            </line>
+            <line>
+              <![CDATA[Enter Password[[ChromeDriver: chrome on WINDOWS (8365b60c0124282b299aa410a01a8147)] -> id: password] into Password Field [[ChromeDriver: chrome on WINDOWS (8365b60c0124282b299aa410a01a8147)] -> id: password]]]>
+            </line>
+            <line>
+              <![CDATA[Click on Login Button[[ChromeDriver: chrome on WINDOWS (8365b60c0124282b299aa410a01a8147)] -> xpath: //button[@type='submit']]]]>
+            </line>
+            <line>
+              <![CDATA[Get Secure Area Text [[ChromeDriver: chrome on WINDOWS (8365b60c0124282b299aa410a01a8147)] -> xpath: //h2[text()=' Secure Area']]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- UserShouldLoginSuccessfullyWithValidCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@1786f9d5]" name="tearDown" is-config="true" duration-ms="833" started-at="2022-12-13T22:37:21 GMT" finished-at="2022-12-13T22:37:22 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@1786f9d5]" name="setUp" is-config="true" duration-ms="3147" started-at="2022-12-13T22:37:22 GMT" finished-at="2022-12-13T22:37:25 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@1786f9d5]" name="inIt" is-config="true" duration-ms="0" started-at="2022-12-13T22:37:25 GMT" finished-at="2022-12-13T22:37:25 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyThePasswordErrorMessage()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@1786f9d5]" name="verifyThePasswordErrorMessage" duration-ms="837" started-at="2022-12-13T22:37:25 GMT" finished-at="2022-12-13T22:37:26 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter User Name [[ChromeDriver: chrome on WINDOWS (0d4144b9db1af102e46bbcf33018075e)] -> id: username] in to username field [[ChromeDriver: chrome on WINDOWS (0d4144b9db1af102e46bbcf33018075e)] -> id: username]]]>
+            </line>
+            <line>
+              <![CDATA[Enter Password[[ChromeDriver: chrome on WINDOWS (0d4144b9db1af102e46bbcf33018075e)] -> id: password] into Password Field [[ChromeDriver: chrome on WINDOWS (0d4144b9db1af102e46bbcf33018075e)] -> id: password]]]>
+            </line>
+            <line>
+              <![CDATA[Click on Login Button[[ChromeDriver: chrome on WINDOWS (0d4144b9db1af102e46bbcf33018075e)] -> xpath: //button[@type='submit']]]]>
+            </line>
+            <line>
+              <![CDATA[Verify Invalid Credential Message[[ChromeDriver: chrome on WINDOWS (0d4144b9db1af102e46bbcf33018075e)] -> xpath: //div[@id='flash-messages']]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyThePasswordErrorMessage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@1786f9d5]" name="tearDown" is-config="true" duration-ms="769" started-at="2022-12-13T22:37:26 GMT" finished-at="2022-12-13T22:37:27 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@1786f9d5]" name="setUp" is-config="true" duration-ms="4466" started-at="2022-12-13T22:37:27 GMT" finished-at="2022-12-13T22:37:31 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@1786f9d5]" name="inIt" is-config="true" duration-ms="1" started-at="2022-12-13T22:37:31 GMT" finished-at="2022-12-13T22:37:31 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyTheUsernameErrorMessage()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@1786f9d5]" name="verifyTheUsernameErrorMessage" duration-ms="754" started-at="2022-12-13T22:37:31 GMT" finished-at="2022-12-13T22:37:32 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter User Name [[ChromeDriver: chrome on WINDOWS (6bec2554be1011f1a290ba1d5279234c)] -> id: username] in to username field [[ChromeDriver: chrome on WINDOWS (6bec2554be1011f1a290ba1d5279234c)] -> id: username]]]>
+            </line>
+            <line>
+              <![CDATA[Enter Password[[ChromeDriver: chrome on WINDOWS (6bec2554be1011f1a290ba1d5279234c)] -> id: password] into Password Field [[ChromeDriver: chrome on WINDOWS (6bec2554be1011f1a290ba1d5279234c)] -> id: password]]]>
+            </line>
+            <line>
+              <![CDATA[Click on Login Button[[ChromeDriver: chrome on WINDOWS (6bec2554be1011f1a290ba1d5279234c)] -> xpath: //button[@type='submit']]]]>
+            </line>
+            <line>
+              <![CDATA[Verify Invalid Credential Message[[ChromeDriver: chrome on WINDOWS (6bec2554be1011f1a290ba1d5279234c)] -> xpath: //div[@id='flash-messages']]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTheUsernameErrorMessage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@1786f9d5]" name="tearDown" is-config="true" duration-ms="786" started-at="2022-12-13T22:37:32 GMT" finished-at="2022-12-13T22:37:33 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.testsuite.LoginPageTest -->
+    </test> <!-- Login Test -->
+  </suite> <!-- testsuite -->
+</testng-results>
